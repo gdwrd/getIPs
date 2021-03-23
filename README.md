@@ -1,2 +1,126 @@
-# getIPs
-Python tool to get all IPs from domain list
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h3 align="center">getIPs CLI tool</h3>
+
+  <p align="center">
+    Small python cli tool for getting all IPS from list of domains
+    <br />
+</p>
+
+```bash @@@@@@@@  @@@@@@@@  @@@@@@@  @@@  @@@@@@@    @@@@@@   
+@@@@@@@@@  @@@@@@@@  @@@@@@@  @@@  @@@@@@@@  @@@@@@@   
+!@@        @@!         @@!    @@!  @@!  @@@  !@@       
+!@!        !@!         !@!    !@!  !@!  @!@  !@!       
+!@! @!@!@  @!!!:!      @!!    !!@  @!@@!@!   !!@@!!    
+!!! !!@!!  !!!!!:      !!!    !!!  !!@!!!     !!@!!!   
+:!!   !!:  !!:         !!:    !!:  !!:            !:!  
+:!:   !::  :!:         :!:    :!:  :!:           !:!   
+ ::: ::::   :: ::::     ::     ::   ::       :::: ::   
+ :: :: :   : :: ::      :     :     :        :: : :    
+```      
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#installation">Installation</a>
+    </li>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+This is very simple tool to scratch all available IP addresses from the hostname file that you will provide as a parameter. There is realy nothing special in this software, just a very simple tool that can become as a part of your recon workwflow.
+Maybe some features will be added later, but you go ahead an fork and create pull request.
+
+<!-- GETTING STARTED -->
+## Installation
+
+The tool installation is simple if you already have a `python` and `pip` installed
+```bash
+pip install getips
+```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Here is how to use this tool:
+
+```bash
+getips -h # Show help
+```
+
+```bash
+getips -d path/to/domains/list # input file with domains should be a list
+```
+
+```bash
+getips -d path/to/domains/list -o output_file # to save the ip's list as output file
+```
+
+```bash
+getips -d domains -o ips -v # verbose output
+```
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+n4Zz2 - [@_n4Zz2_](https://twitter.com/_n4Zz2_) - root@n4zz2.com
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png

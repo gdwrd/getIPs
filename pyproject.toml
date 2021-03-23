@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "getips"
+version = "0.1.1"
+description = "Small python tool to get all IP addresses from list of domains."
+authors = ["n4Zz2 <root@n4Zz2.com>"]
+
+[tool.poetry.scripts]
+getips = "getips.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^7.1.2"
+funcy = "^1.15"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
