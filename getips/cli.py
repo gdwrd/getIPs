@@ -40,6 +40,7 @@ def process(in_file, out_file, verbose):
             ip = socket.gethostbyname(host)
         except:
             print_func(colors.WARNING + "Host: %s is not available." % (host))
+            continue
 
         print_func(colors.INFO + "Host: %s has an IP: %s" % (host, ip))
         ips.append(ip + os.linesep)
