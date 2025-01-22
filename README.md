@@ -104,7 +104,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-n4Zz2 - [@_n4Zz2_](https://twitter.com/_n4Zz2_) - root@n4zz2.com
+@gdwrd
 
 
 [contributors-url]: https://github.com/n4Zz2/getips/graphs/contributors
